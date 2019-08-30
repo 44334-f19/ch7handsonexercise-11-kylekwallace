@@ -20,7 +20,21 @@ header { background-color: #636631;
          color: #cc66cc;
          text-align: right;
          padding: 0 20px;
-         border-bottom: 2px solid #000000; }		 
+         border-bottom: 2px solid #000000; }	
+#wrapper {  background-color: #F4E8BC; 
+	        width: 90%;
+			margin: auto;
+            color: #330000;
+            display: grid;
+            grid-template-columns: 160px 1fr 160px;
+            grid-template-rows: 200px auto 100px;
+} 
+nav {grid-row: 2/3;
+     grid-column: 1/2;}
+main {grid-row: 2/3;
+      grid-column: 2/3;}
+aside {grid-row: 2/3;
+       grid-column: 3/4;}
 nav { float: left;
       width: 150px; }
 aside { float: right;
